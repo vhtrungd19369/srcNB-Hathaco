@@ -1,20 +1,19 @@
 <?php
-define( 'WP_CACHE', true ); // Added by WP Rocket
 /**
  * The base configuration for WordPress
  *
- * The wp-config.php creation script uses this file during the
- * installation. You don't have to use the web site, you can
- * copy this file to "wp-config.php" and fill in the values.
+ * The wp-config.php creation script uses this file during the installation.
+ * You don't have to use the web site, you can copy this file to "wp-config.php"
+ * and fill in the values.
  *
  * This file contains the following configurations:
  *
- * * MySQL settings
+ * * Database settings
  * * Secret keys
  * * Database table prefix
  * * ABSPATH
  *
- * @link https://codex.wordpress.org/Editing_wp-config.php
+ * @link https://wordpress.org/support/article/editing-wp-config-php/
  *
  * @package WordPress
  */
@@ -24,7 +23,7 @@ define( 'WP_CACHE', true ); // Added by WP Rocket
 define( 'DB_NAME', "xuong308_nhadatquan9" );
 
 /** MySQL database username */
-define( 'DB_USER', "xuong308_admin" );
+define( 'DB_USER', "xuong308_nhadatquan9" );
 
 /** MySQL database password */
 define( 'DB_PASSWORD', "Admin@*##123980" );
@@ -39,32 +38,34 @@ define( 'DB_CHARSET', 'utf8mb4' );
 define( 'DB_COLLATE', '' );
 
 /**#@+
- * Authentication Unique Keys and Salts.
+ * Authentication unique keys and salts.
  *
- * Change these to different unique phrases!
- * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
- * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
+ * Change these to different unique phrases! You can generate these using
+ * the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}.
+ *
+ * You can change these at any point in time to invalidate all existing cookies.
+ * This will force all users to have to log in again.
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'BFBGSc=?GRFFNwDmB3]O5^I_vE%EmI85(Bm[z8,E1J|25uL3(eYOb)bV@g/u@P22' );
-define( 'SECURE_AUTH_KEY',  '8Tx%];,V[#5nRNG2yf[,D1[4Dj>Cq%_q$>J Ga]Cb#fsW=1hTYk7./ap)e%KQB.k' );
-define( 'LOGGED_IN_KEY',    'a~7q*;i_FLjl~El-jeigwt#dyav$:e5c~FWR;S&!^_;;kCOL~svEH27AH)D1^0<1' );
-define( 'NONCE_KEY',        'YsZNs`$|{d=~NXlyQ]?Q%l8f^Y?[Kq|J2 zJA&y.s-E|}G0t0C?CCV/0J6@=`>|%' );
-define( 'AUTH_SALT',        'R~Tv8I$&2Dg``/Ue7}OUC`ec%i/14~tY_d 0dS89P$ykDWq|3//{1Gl[*#L7#TPo' );
-define( 'SECURE_AUTH_SALT', ']hF!#acm$Ez8+4o>VH4WvK<Mz!{F$3#9q.X]gJ-c/j}1XpSP2>vzNnjy8N~&rmIr' );
-define( 'LOGGED_IN_SALT',   ':P|O:CxGTX^q@{f-,f<iP7i4YYXiwi`b,g<h8;5Zw`,>G6sG.cDY9&f2fvCz;e[d' );
-define( 'NONCE_SALT',       ']ntO(sgR!jM[9?W@@#[<PQ=!RtY3ZX-dx4NPY2)3gF|<7XUmfCK8rfTW#payx_7j' );
+define( 'AUTH_KEY',         'U,pZPONoAb4@a_k>9{WY(49VNm3HR$6pq_4{1U|z+|V5X3NFNcYj/v23F=? Gg]v' );
+define( 'SECURE_AUTH_KEY',  '[h $)z^jBEMc,`]u9mhtL%d&m&0p>OZ: 8qZqIVg&htRP~JUni0C0jMnx=rk)V5/' );
+define( 'LOGGED_IN_KEY',    ']=354QRZRIPi7M!Neyx~dm>Z mo|:@XOI {.HJ~}ny|j3MJ]&=)F+rm&KNJh`qp+' );
+define( 'NONCE_KEY',        'hdH?agmQm3G(YxT28hQ=EO9 D4V<mLe(_od%D?c~0G#qLQ{N`Bm;1bEqG D<yOG+' );
+define( 'AUTH_SALT',        'M?et_HK C.dJnw[!&`+e^@fh,2#!Vec&0$2O3VYjNm3vP!HB@&?DTrO@`(.Gb 2=' );
+define( 'SECURE_AUTH_SALT', 'zaK 59&$Ev@]WHQ<heZ}lD1/|p#4,Lh.p7WDvtc#8PY?)u*re+&<<Ka[;HPJqL<Y' );
+define( 'LOGGED_IN_SALT',   'A S+]5z=OPr2qmQ`%)4 {lp%E<Vg#@i*~ tndj^~K2o0h ^3DSH9;e!:3L^R{C0l' );
+define( 'NONCE_SALT',       '-S%rd}M}>jbUGO-2gH0N[^+LL$?adN}fM} P?&tDRdSgz0,IrcMS<K1Q o^M&72!' );
 
 /**#@-*/
 
 /**
- * WordPress Database Table prefix.
+ * WordPress database table prefix.
  *
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'nbw_';
+$table_prefix = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -74,18 +75,22 @@ $table_prefix = 'nbw_';
  * in their development environments.
  *
  * For information on other constants that can be used for debugging,
- * visit the Codex.
+ * visit the documentation.
  *
- * @link https://codex.wordpress.org/Debugging_in_WordPress
+ * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
+
+/* Add any custom values between this line and the "stop editing" line. */
+
+
 
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', dirname(__FILE__) . '/' );
+	define( 'ABSPATH', __DIR__ . '/' );
 }
 
 /** Sets up WordPress vars and included files. */
-require_once( ABSPATH . 'wp-settings.php' );
+require_once ABSPATH . 'wp-settings.php';
