@@ -1,0 +1,11 @@
+2021-06-23T02:55:33+00:00 CRITICAL Uncaught Error: Class 'Automattic\WooCommerce\Admin\Notes\OrderMilestones' not found in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php:189
+Stack trace:
+#0 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php(144): Automattic\WooCommerce\Admin\FeaturePlugin->includes()
+#1 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php(85): Automattic\WooCommerce\Admin\FeaturePlugin->on_plugins_loaded()
+#2 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Composer/Package.php(80): Automattic\WooCommerce\Admin\FeaturePlugin->init()
+#3 [internal function]: Automattic\WooCommerce\Admin\Composer\Package::init()
+#4 /home/xuong308/public_html/wp-content/plugins/woocommerce/src/Packages.php(69): call_user_func(Array)
+#5 /home/xuong308/public_html/wp-content/plugins/woocommerce/src/Packages.php(45): Automattic\WooCommerce\Pack in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/FeaturePlugin.php on line 189
+
+2021-06-23T02:55:33+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/Notes/OrderMilestones.php on line 174
+

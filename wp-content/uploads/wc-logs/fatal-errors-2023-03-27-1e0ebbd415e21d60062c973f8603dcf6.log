@@ -1,0 +1,2 @@
+2023-03-27T14:52:33+00:00 CRITICAL require_once(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/includes/react-admin/wc-admin-update-functions.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php on line 78
+

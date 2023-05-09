@@ -1,0 +1,51 @@
+2023-01-04T15:58:39+00:00 CRITICAL Uncaught Error: Call to undefined function Automattic\WooCommerce\Blocks\BlockTypes\wp_is_block_theme() in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductImage.php:168
+Stack trace:
+#0 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(100): Automattic\WooCommerce\Blocks\BlockTypes\ProductImage->enqueue_data()
+#1 /home/xuong308/public_html/wp-includes/class-wp-hook.php(303): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_editor_assets('')
+#2 /home/xuong308/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 /home/xuong308/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/xuong308/public_html/wp-admin/widgets-form-blocks.php(64): do_action('enqueue_block_e...')
+#5 /home/xuong308/public_html/wp-admin/widgets.php(31): require('/home/xuong308/...')
+#6 {main}
+  thrown in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductImage.php on line 168
+
+2023-01-04T16:04:07+00:00 CRITICAL Uncaught Error: Call to undefined function Automattic\WooCommerce\Blocks\BlockTypes\wp_is_block_theme() in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductImage.php:168
+Stack trace:
+#0 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(100): Automattic\WooCommerce\Blocks\BlockTypes\ProductImage->enqueue_data()
+#1 /home/xuong308/public_html/wp-includes/class-wp-hook.php(303): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_editor_assets('')
+#2 /home/xuong308/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 /home/xuong308/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/xuong308/public_html/wp-includes/class-wp-customize-widgets.php(873): do_action('enqueue_block_e...')
+#5 /home/xuong308/public_html/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#6 /home/xuong308/public_html/ in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductImage.php on line 168
+
+2023-01-04T16:05:28+00:00 CRITICAL Uncaught Error: Call to undefined function Automattic\WooCommerce\Blocks\BlockTypes\wp_is_block_theme() in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductImage.php:168
+Stack trace:
+#0 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(100): Automattic\WooCommerce\Blocks\BlockTypes\ProductImage->enqueue_data()
+#1 /home/xuong308/public_html/wp-includes/class-wp-hook.php(303): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_editor_assets('')
+#2 /home/xuong308/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 /home/xuong308/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/xuong308/public_html/wp-includes/class-wp-customize-widgets.php(873): do_action('enqueue_block_e...')
+#5 /home/xuong308/public_html/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#6 /home/xuong308/public_html/ in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductImage.php on line 168
+
+2023-01-04T16:07:12+00:00 CRITICAL Uncaught Error: Call to undefined function Automattic\WooCommerce\Blocks\BlockTypes\wp_is_block_theme() in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductImage.php:168
+Stack trace:
+#0 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(100): Automattic\WooCommerce\Blocks\BlockTypes\ProductImage->enqueue_data()
+#1 /home/xuong308/public_html/wp-includes/class-wp-hook.php(303): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_editor_assets('')
+#2 /home/xuong308/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 /home/xuong308/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/xuong308/public_html/wp-includes/class-wp-customize-widgets.php(873): do_action('enqueue_block_e...')
+#5 /home/xuong308/public_html/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#6 /home/xuong308/public_html/ in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductImage.php on line 168
+
+2023-01-04T16:08:12+00:00 CRITICAL Uncaught Error: Call to undefined function Automattic\WooCommerce\Blocks\BlockTypes\wp_is_block_theme() in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductImage.php:168
+Stack trace:
+#0 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractBlock.php(100): Automattic\WooCommerce\Blocks\BlockTypes\ProductImage->enqueue_data()
+#1 /home/xuong308/public_html/wp-includes/class-wp-hook.php(303): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_editor_assets('')
+#2 /home/xuong308/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 /home/xuong308/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/xuong308/public_html/wp-includes/class-wp-customize-widgets.php(873): do_action('enqueue_block_e...')
+#5 /home/xuong308/public_html/wp-includes/class-wp-hook.php(303): WP_Customize_Widgets->enqueue_scripts('')
+#6 /home/xuong308/public_html/ in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductImage.php on line 168
+

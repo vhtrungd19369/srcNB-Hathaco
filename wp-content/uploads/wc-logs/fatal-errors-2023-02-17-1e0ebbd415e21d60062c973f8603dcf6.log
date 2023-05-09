@@ -1,0 +1,15 @@
+2023-02-17T16:47:34+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/src/Database/Migrations/MetaToCustomTableMigrator.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-02-17T16:47:35+00:00 CRITICAL require_once(): Failed opening required '/home/xuong308/public_html/wp-includes/widgets/class-wp-widget-rss.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-includes/default-widgets.php on line 56
+
+2023-02-17T16:47:37+00:00 CRITICAL Uncaught Exception: Dữ liệu cửa hàng không hợp lệ. in /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:101
+Stack trace:
+#0 /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct('customer-downlo...')
+#1 /home/xuong308/public_html/wp-content/plugins/woocommerce/src/Proxies/LegacyProxy.php(57): WC_Data_Store::load('customer-downlo...')
+#2 /home/xuong308/public_html/wp-content/plugins/woocommerce/src/Internal/DownloadPermissionsAdjuster.php(31): Automattic\WooCommerce\Proxies\LegacyProxy->get_instance_of('WC_Data_Store', 'customer-downlo...')
+#3 [internal function]: Automattic\WooCommerce\Internal\DownloadPermissionsAdjuster->init()
+#4 /home/xuong308/public_html/wp-content/plugins/woocommerce/src/Internal/DependencyManagement/Definition.php(34): call_user_func_array(Array, Array)
+#5 /home/xuong308/public_html/wp-content/plugins/woocommerce/lib/packages/League/Container/Definition/Definition. in /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 101
+
+2023-02-17T16:47:38+00:00 CRITICAL require_once(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/includes/library/functions.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/menu-icons.php on line 87
+

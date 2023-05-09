@@ -1,0 +1,27 @@
+2022-11-28T12:34:11+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/xuong308/public_html/wp-content/plugins/SpeedContent/src/Ajax.php:26
+Stack trace:
+#0 /home/xuong308/public_html/wp-includes/class-wp-hook.php(303): WPRapid\Ajax->ajax_readability('')
+#1 /home/xuong308/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/xuong308/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/xuong308/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_wprp_re...')
+#4 {main}
+  thrown in /home/xuong308/public_html/wp-content/plugins/SpeedContent/src/Ajax.php on line 26
+
+2022-11-28T12:37:53+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/xuong308/public_html/wp-content/plugins/SpeedContent/src/Ajax.php:26
+Stack trace:
+#0 /home/xuong308/public_html/wp-includes/class-wp-hook.php(303): WPRapid\Ajax->ajax_readability('')
+#1 /home/xuong308/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/xuong308/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/xuong308/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_wprp_re...')
+#4 {main}
+  thrown in /home/xuong308/public_html/wp-content/plugins/SpeedContent/src/Ajax.php on line 26
+
+2022-11-28T13:22:37+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/xuong308/public_html/wp-content/plugins/SpeedContent/src/Ajax.php:26
+Stack trace:
+#0 /home/xuong308/public_html/wp-includes/class-wp-hook.php(303): WPRapid\Ajax->ajax_readability('')
+#1 /home/xuong308/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/xuong308/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/xuong308/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_wprp_re...')
+#4 {main}
+  thrown in /home/xuong308/public_html/wp-content/plugins/SpeedContent/src/Ajax.php on line 26
+

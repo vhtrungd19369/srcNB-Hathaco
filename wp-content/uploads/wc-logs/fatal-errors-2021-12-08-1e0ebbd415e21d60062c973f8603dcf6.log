@@ -1,0 +1,20 @@
+2021-12-08T07:52:40+00:00 CRITICAL Out of memory (allocated 58720256) (tried to allocate 28672 bytes) in /home/xuong308/public_html/wp-content/themes/flatsome/inc/classes/class-tgm-plugin-activation.php on line 399
+
+2021-12-08T07:52:40+00:00 CRITICAL Out of memory (allocated 62914560) (tried to allocate 299008 bytes) in /home/xuong308/public_html/wp-includes/pomo/streams.php on line 222
+
+2021-12-08T07:52:40+00:00 CRITICAL Out of memory (allocated 62914560) (tried to allocate 299008 bytes) in /home/xuong308/public_html/wp-includes/pomo/streams.php on line 222
+
+2021-12-08T07:52:40+00:00 CRITICAL Out of memory (allocated 62914560) (tried to allocate 299008 bytes) in /home/xuong308/public_html/wp-includes/pomo/streams.php on line 222
+
+2021-12-08T07:52:40+00:00 CRITICAL Out of memory (allocated 58720256) (tried to allocate 28672 bytes) in /home/xuong308/public_html/wp-content/themes/flatsome/inc/classes/class-tgm-plugin-activation.php on line 399
+
+2021-12-08T07:52:40+00:00 CRITICAL Out of memory (allocated 65011712) (tried to allocate 20480 bytes) in /home/xuong308/public_html/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/vendor/codeinwp/themeisle-sdk/src/Modules/Translate.php on line 31
+
+2021-12-08T07:52:40+00:00 CRITICAL Out of memory (allocated 62914560) (tried to allocate 299008 bytes) in /home/xuong308/public_html/wp-includes/pomo/streams.php on line 222
+
+2021-12-08T07:52:40+00:00 CRITICAL Out of memory (allocated 67108864) (tried to allocate 20480 bytes) in /home/xuong308/public_html/wp-content/plugins/wordpress-seo/src/integrations/watchers/addon-update-watcher.php on line 39
+
+2021-12-08T07:52:49+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 28672 bytes) in /home/xuong308/public_html/wp-content/themes/flatsome/inc/classes/class-tgm-plugin-activation.php on line 399
+
+2021-12-08T07:52:49+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 28672 bytes) in /home/xuong308/public_html/wp-content/themes/flatsome/inc/classes/class-tgm-plugin-activation.php on line 399
+

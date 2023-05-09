@@ -1,0 +1,56 @@
+2021-07-09T08:19:20+00:00 CRITICAL Out of memory (allocated 121634816) (tried to allocate 294912 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:20:05+00:00 CRITICAL Out of memory (allocated 54525952) (tried to allocate 20480 bytes) in /home/xuong308/public_html/wp-content/themes/flatsome/inc/shortcodes/ux_image.php on line 134
+
+2021-07-09T08:20:05+00:00 CRITICAL Out of memory (allocated 90177536) (tried to allocate 147456 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:20:09+00:00 CRITICAL Out of memory (allocated 60817408) (tried to allocate 32768 bytes) in /home/xuong308/public_html/wp-content/plugins/wordpress-seo/src/builders/indexable-builder.php on line 1
+
+2021-07-09T08:20:09+00:00 CRITICAL Out of memory (allocated 98566144) (tried to allocate 147456 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:20:09+00:00 CRITICAL Out of memory (allocated 102760448) (tried to allocate 147456 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:20:14+00:00 CRITICAL Out of memory (allocated 33554432) (tried to allocate 266240 bytes) in /home/xuong308/public_html/wp-includes/pomo/streams.php on line 118
+
+2021-07-09T08:20:14+00:00 CRITICAL Out of memory (allocated 109051904) (tried to allocate 147456 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:20:14+00:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 32768 bytes) in /home/xuong308/public_html/wp-content/themes/flatsome/inc/shortcodes/share_follow.php on line 212
+
+2021-07-09T08:20:14+00:00 CRITICAL Out of memory (allocated 52428800) (tried to allocate 294912 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:20:14+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 20480 bytes) in /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php on line 88
+
+2021-07-09T08:20:31+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 36864 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:20:33+00:00 CRITICAL Out of memory (allocated 14680064) (tried to allocate 294912 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:20:33+00:00 CRITICAL Out of memory (allocated 6291456) (tried to allocate 147456 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:20:33+00:00 CRITICAL Out of memory (allocated 81788928) (tried to allocate 147456 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:20:33+00:00 CRITICAL Out of memory (allocated 121634816) (tried to allocate 294912 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:22:44+00:00 CRITICAL Out of memory (allocated 81788928) (tried to allocate 73728 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:22:46+00:00 CRITICAL Out of memory (allocated 115343360) (tried to allocate 147456 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:22:53+00:00 CRITICAL Out of memory (allocated 104857600) (tried to allocate 147456 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:22:56+00:00 CRITICAL Out of memory (allocated 102760448) (tried to allocate 147456 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:23:03+00:00 CRITICAL Out of memory (allocated 23068672) (tried to allocate 32768 bytes) in /home/xuong308/public_html/wp-content/themes/flatsome/inc/shortcodes/blog_posts.php on line 263
+
+2021-07-09T08:23:04+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 32768 bytes) in /home/xuong308/public_html/wp-content/themes/flatsome/inc/shortcodes/ux_image.php on line 166
+
+2021-07-09T08:23:04+00:00 CRITICAL Out of memory (allocated 102760448) (tried to allocate 147456 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:23:04+00:00 CRITICAL Out of memory (allocated 117440512) (tried to allocate 294912 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:23:12+00:00 CRITICAL Out of memory (allocated 39845888) (tried to allocate 147456 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:23:12+00:00 CRITICAL Out of memory (allocated 31457280) (tried to allocate 147456 bytes) in /home/xuong308/public_html/wp-includes/class-wp-rewrite.php on line 1656
+
+2021-07-09T08:24:08+00:00 CRITICAL Out of memory (allocated 58720256) (tried to allocate 20480 bytes) in /home/xuong308/public_html/wp-includes/pomo/streams.php on line 118
+
+2021-07-09T08:24:08+00:00 CRITICAL Out of memory (allocated 44040192) (tried to allocate 4096 bytes) in /home/xuong308/public_html/wp-includes/pomo/mo.php on line 315
+

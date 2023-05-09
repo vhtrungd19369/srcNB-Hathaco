@@ -1,0 +1,24 @@
+2021-12-07T03:27:56+00:00 CRITICAL Out of memory (allocated 62914560) (tried to allocate 299008 bytes) in /home/xuong308/public_html/wp-includes/pomo/streams.php on line 222
+
+2021-12-07T03:27:56+00:00 CRITICAL Out of memory (allocated 62914560) (tried to allocate 299008 bytes) in /home/xuong308/public_html/wp-includes/pomo/streams.php on line 222
+
+2021-12-07T03:27:56+00:00 CRITICAL Out of memory (allocated 58720256) (tried to allocate 28672 bytes) in /home/xuong308/public_html/wp-content/themes/flatsome/inc/classes/class-tgm-plugin-activation.php on line 399
+
+2021-12-07T03:27:56+00:00 CRITICAL Out of memory (allocated 65011712) (tried to allocate 32768 bytes) in /home/xuong308/public_html/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/vendor/codeinwp/themeisle-sdk/src/Modules/Translate.php on line 31
+
+2021-12-07T03:27:56+00:00 CRITICAL Out of memory (allocated 67108864) (tried to allocate 65536 bytes) in /home/xuong308/public_html/wp-content/plugins/wordpress-seo/src/conditionals/woocommerce-conditional.php on line 8
+
+2021-12-07T03:27:59+00:00 CRITICAL Out of memory (allocated 65011712) (tried to allocate 32768 bytes) in /home/xuong308/public_html/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/vendor/codeinwp/themeisle-sdk/src/Modules/Translate.php on line 31
+
+2021-12-07T03:28:00+00:00 CRITICAL Out of memory (allocated 69206016) (tried to allocate 524288 bytes) in /home/xuong308/public_html/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/vendor/codeinwp/icon-picker/includes/types/fa.php on line 3452
+
+2021-12-07T03:28:05+00:00 CRITICAL Out of memory (allocated 73400320) (tried to allocate 57344 bytes) in /home/xuong308/public_html/wp-includes/shortcodes.php on line 228
+
+2021-12-07T03:28:05+00:00 CRITICAL Out of memory (allocated 31457280) (tried to allocate 73728 bytes) in /home/xuong308/public_html/wp-content/themes/flatsome/inc/init.php on line 177
+
+2021-12-07T03:28:05+00:00 CRITICAL Out of memory (allocated 73400320) (tried to allocate 20480 bytes) in /home/xuong308/public_html/wp-includes/wp-db.php on line 2726
+
+2021-12-07T03:28:05+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 299008 bytes) in /home/xuong308/public_html/wp-includes/pomo/streams.php on line 222
+
+2021-12-07T03:28:13+00:00 CRITICAL Out of memory (allocated 29360128) (tried to allocate 299008 bytes) in /home/xuong308/public_html/wp-includes/pomo/streams.php on line 222
+

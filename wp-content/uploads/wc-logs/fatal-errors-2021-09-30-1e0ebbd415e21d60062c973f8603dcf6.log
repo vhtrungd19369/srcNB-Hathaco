@@ -1,0 +1,4 @@
+2021-09-30T13:32:20+00:00 CRITICAL Out of memory (allocated 58720256) (tried to allocate 28672 bytes) in /home/xuong308/public_html/wp-content/themes/flatsome/inc/classes/class-tgm-plugin-activation.php on line 399
+
+2021-09-30T13:32:26+00:00 CRITICAL Out of memory (allocated 65011712) (tried to allocate 32768 bytes) in /home/xuong308/public_html/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/vendor/codeinwp/themeisle-sdk/src/Modules/Translate.php on line 31
+

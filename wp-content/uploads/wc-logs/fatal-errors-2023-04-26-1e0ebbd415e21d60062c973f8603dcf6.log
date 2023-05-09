@@ -1,0 +1,2 @@
+2023-04-26T05:13:45+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/src/Database/Migrations/MigrationHelper.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+

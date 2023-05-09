@@ -1,0 +1,8 @@
+2021-06-17T23:45:32+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1970176 bytes) in /home/xuong308/public_html/wp-includes/class.wp-scripts.php on line 305
+
+2021-06-17T23:45:52+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1970176 bytes) in /home/xuong308/public_html/wp-includes/class.wp-scripts.php on line 305
+
+2021-06-17T23:55:21+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1970176 bytes) in /home/xuong308/public_html/wp-includes/class.wp-scripts.php on line 305
+
+2021-06-17T23:56:15+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1007616 bytes) in /home/xuong308/public_html/wp-includes/class.wp-scripts.php on line 405
+

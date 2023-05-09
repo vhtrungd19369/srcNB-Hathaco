@@ -1,0 +1,109 @@
+2023-01-11T08:34:50+00:00 CRITICAL Uncaught Error: Class 'ActionScheduler_Logger' not found in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php:33
+Stack trace:
+#0 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(146): ActionScheduler::logger()
+#1 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init('/home/xuong308/...')
+#2 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_4_dot_0()
+#3 /home/xuong308/public_html/wp-includes/class-wp-hook.php(306): ActionScheduler_Versions::initialize_latest_version()
+#4 /home/xuong308/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/xuong308/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/xuong308/public_html/wp in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php on line 33
+
+2023-01-11T08:34:51+00:00 CRITICAL require_once(): Failed opening required '/home/xuong308/public_html/wp-includes/widgets/class-wp-widget-tag-cloud.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-includes/default-widgets.php on line 59
+
+2023-01-11T08:34:51+00:00 CRITICAL Uncaught Error: Class 'ActionScheduler_DBStore' not found in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php:418
+Stack trace:
+#0 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(25): ActionScheduler_Store::instance()
+#1 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(145): ActionScheduler::store()
+#2 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init('/home/xuong308/...')
+#3 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_4_dot_0()
+#4 /home/xuong308/public_html/wp-includes/class-wp-hook.php(306): ActionScheduler_Versions::initialize_latest_version()
+#5 /home/xuong308/public_html/wp-includes/class- in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php on line 418
+
+2023-01-11T08:34:52+00:00 CRITICAL Uncaught Error: Class 'ActionScheduler_AsyncRequest_QueueRunner' not found in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:40
+Stack trace:
+#0 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(24): ActionScheduler_QueueRunner->__construct()
+#1 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(37): ActionScheduler_QueueRunner::instance()
+#2 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(147): ActionScheduler::runner()
+#3 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init('/home/xuong308/...')
+#4 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_i in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 40
+
+2023-01-11T08:34:52+00:00 CRITICAL Uncaught Error: Class 'ActionScheduler_Logger' not found in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php:33
+Stack trace:
+#0 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(146): ActionScheduler::logger()
+#1 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init('/home/xuong308/...')
+#2 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_4_dot_0()
+#3 /home/xuong308/public_html/wp-includes/class-wp-hook.php(306): ActionScheduler_Versions::initialize_latest_version()
+#4 /home/xuong308/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/xuong308/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/xuong308/public_html/wp in /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php on line 33
+
+2023-01-11T08:34:55+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/themes/flatsome/inc/shortcodes/ux_products_list.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/themes/flatsome/inc/init.php on line 118
+
+2023-01-11T08:34:55+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/themes/flatsome/inc/integrations/integrations.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/themes/flatsome/inc/init.php on line 177
+
+2023-01-11T08:34:56+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/elementor/core/settings/base/css-manager.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-01-11T08:34:59+00:00 CRITICAL Uncaught Error: Class 'WC_Regenerate_Images_Request' not found in /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php:49
+Stack trace:
+#0 /home/xuong308/public_html/wp-includes/class-wp-hook.php(308): WC_Regenerate_Images::init('')
+#1 /home/xuong308/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/xuong308/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/xuong308/public_html/wp-settings.php(617): do_action('init')
+#4 /home/xuong308/public_html/wp-config.php(96): require_once('/home/xuong308/...')
+#5 /home/xuong308/public_html/wp-load.php(50): require_once('/home/xuong308/...')
+#6 /home/xuong308/public_html/wp-blog-header.php(13): require_once('/home/xuong308/...')
+#7 /home/xuong308/public_html/index.php(17): require('/home/xuong308/...')
+#8 {main}
+  thrown in /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php on line 49
+
+2023-01-11T08:34:59+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-includes/blocks/file/view.min.asset.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-includes/blocks.php on line 150
+
+2023-01-11T08:34:59+00:00 CRITICAL Uncaught Error: Class 'WC_Regenerate_Images_Request' not found in /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php:49
+Stack trace:
+#0 /home/xuong308/public_html/wp-includes/class-wp-hook.php(308): WC_Regenerate_Images::init('')
+#1 /home/xuong308/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/xuong308/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/xuong308/public_html/wp-settings.php(617): do_action('init')
+#4 /home/xuong308/public_html/wp-config.php(96): require_once('/home/xuong308/...')
+#5 /home/xuong308/public_html/wp-load.php(50): require_once('/home/xuong308/...')
+#6 /home/xuong308/public_html/wp-blog-header.php(13): require_once('/home/xuong308/...')
+#7 /home/xuong308/public_html/index.php(17): require('/home/xuong308/...')
+#8 {main}
+  thrown in /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php on line 49
+
+2023-01-11T08:34:59+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-includes/blocks/require-static-blocks.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-includes/blocks/index.php on line 22
+
+2023-01-11T08:35:02+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/src/Admin/API/OnboardingTasks.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-01-11T08:35:02+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/src/Admin/Features/PaymentGatewaySuggestions/EvaluateSuggestion.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-01-11T08:35:02+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/src/Admin/API/Reports/Products/Stats/Controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-01-11T08:35:02+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/src/Admin/API/OnboardingThemes.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-01-11T08:35:02+00:00 CRITICAL Uncaught Error: Class 'WC_Tax' not found in /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:696
+Stack trace:
+#0 /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-taxes-controller.php(74): WC_REST_Taxes_V1_Controller->get_item_schema()
+#1 /home/xuong308/public_html/wp-includes/rest-api/endpoints/class-wp-rest-controller.php(388): WC_REST_Taxes_Controller->get_item_schema()
+#2 /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php(712): WP_REST_Controller->get_context_param()
+#3 /home/xuong308/public_html/wp-content/plugins/woocommerce/src/Admin/API/Taxes.php(33): WC_REST_Taxes_V1_Controller->get_collection_params()
+#4 /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php(49): Automattic\WooCommerce\Admin\AP in /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php on line 696
+
+2023-01-11T08:35:02+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/src/Admin/RemoteInboxNotifications/OptionRuleProcessor.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-01-11T15:25:27+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Integrations/IntegrationInterface.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-01-11T15:25:27+00:00 CRITICAL require_once(): Failed opening required '/home/xuong308/public_html/wp-content/themes/flatsome/inc/builder/core/ux-builder.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/themes/flatsome/inc/builder/builder.php on line 3
+
+2023-01-11T15:25:28+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/elementor//includes/template-library/sources/local.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-01-11T15:25:33+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutActionsBlock.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-01-11T15:25:33+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutActionsBlock.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-01-11T15:25:33+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutActionsBlock.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-01-11T15:25:33+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutActionsBlock.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-01-11T15:25:33+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutActionsBlock.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+

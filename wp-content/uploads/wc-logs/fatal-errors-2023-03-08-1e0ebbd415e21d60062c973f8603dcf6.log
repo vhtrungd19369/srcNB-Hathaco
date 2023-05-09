@@ -1,0 +1,12 @@
+2023-03-08T20:23:27+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/themes/flatsome/inc/shortcodes/portfolio.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/themes/flatsome/inc/init.php on line 113
+
+2023-03-08T20:23:27+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/src/Utilities/NumberUtil.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-03-08T20:23:28+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/elementor/modules/landing-pages/module.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-03-08T20:23:29+00:00 CRITICAL require_once(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/header-footer-elementor/admin/bsf-analytics/class-bsf-analytics-stats.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/header-footer-elementor/admin/bsf-analytics/class-bsf-analytics.php on line 337
+
+2023-03-08T20:23:29+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/elementor/modules/kit-elements-defaults/module.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/elementor/includes/autoloader.php on line 294
+
+2023-03-08T20:23:29+00:00 CRITICAL require(): Failed opening required '/home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProductRating.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/xuong308/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+

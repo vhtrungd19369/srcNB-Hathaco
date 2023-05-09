@@ -1,0 +1,4 @@
+2022-05-07T06:33:26+00:00 CRITICAL Out of memory (allocated 62914560) (tried to allocate 299008 bytes) in /home/xuong308/public_html/wp-includes/pomo/streams.php on line 222
+
+2022-05-07T06:33:26+00:00 CRITICAL Out of memory (allocated 62914560) (tried to allocate 299008 bytes) in /home/xuong308/public_html/wp-includes/pomo/streams.php on line 222
+

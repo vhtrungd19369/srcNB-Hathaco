@@ -1,0 +1,9 @@
+2023-05-04T08:35:25+00:00 CRITICAL Uncaught Error: Class 'WC_Shipping' not found in /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php:941
+Stack trace:
+#0 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Utilities/LocalPickupUtils.php(16): WooCommerce->shipping()
+#1 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/AssetDataRegistry.php(268): Automattic\WooCommerce\StoreApi\Utilities\LocalPickupUtils::get_local_pickup_method_ids()
+#2 /home/xuong308/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/AssetDataRegistry.php(369): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->execute_lazy_data()
+#3 /home/xuong308/public_html/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry->enqueue_asset_data('')
+#4 /home/xuong308/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/xuong308/public_html/wp-inclu in /home/xuong308/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 941
+
