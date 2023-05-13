@@ -1,0 +1,32 @@
+2023-05-13T04:42:31+00:00 CRITICAL Uncaught Exception: Invalid post. in /home/nhhatmkm/public_html/wp-content/plugins/elementor/core/settings/page/manager.php:101
+Stack trace:
+#0 /home/nhhatmkm/public_html/wp-content/plugins/elementor/core/base/document.php(1688): Elementor\Core\Settings\Page\Manager->ajax_before_save_settings(Array, NULL)
+#1 /home/nhhatmkm/public_html/wp-content/plugins/elementor/core/base/document.php(801): Elementor\Core\Base\Document->save_settings(Array)
+#2 /home/nhhatmkm/public_html/wp-content/plugins/elementor/core/kits/manager.php(295): Elementor\Core\Base\Document->update_settings(Array)
+#3 /home/nhhatmkm/public_html/wp-content/plugins/elementor/core/kits/manager.php(461): Elementor\Core\Kits\Manager->update_kit_settings_based_on_option('site_descriptio...', '')
+#4 /home/nhhatmkm/public_html/wp-includes/class-wp-hook.php(310): Elementor\Core\Kits\Manager->Elementor\Core\Kits\{closure}('CT TNHH TMXNK H...', '')
+#5 /home/nhhatmkm/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 /home/nhhatmkm/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/nhhatmkm/public_html/wp-includes/option.php(570): do_action('update_option_b...', 'CT TNHH TMXNK H...', '', 'blogdescription')
+#8 /home/nhhatmkm/public_html/wp-admin/options.php(322): update_option('blogdescription', '')
+#9 {main}
+  thrown in /home/nhhatmkm/public_html/wp-content/plugins/elementor/core/settings/page/manager.php on line 101
+
+2023-05-13T05:04:02+00:00 CRITICAL Uncaught TypeError: UxBuilder\Post\Post::__construct(): Argument #1 ($post) must be of type WP_Post, null given in /home/nhhatmkm/public_html/wp-content/themes/flatsome/inc/builder/core/server/src/Post/Post.php:14
+Stack trace:
+#0 [internal function]: UxBuilder\Post\Post->__construct(NULL)
+#1 /home/nhhatmkm/public_html/wp-content/themes/flatsome/inc/builder/core/server/src/Services/Container.php(76): ReflectionClass->newInstanceArgs(Array)
+#2 /home/nhhatmkm/public_html/wp-content/themes/flatsome/inc/builder/core/server/src/Application.php(69): UxBuilder\Services\Container->create('UxBuilder\\Post\\...', Array)
+#3 /home/nhhatmkm/public_html/wp-content/themes/flatsome/inc/builder/core/server/src/Services/Container.php(18): UxBuilder\Application->UxBuilder\{closure}(Object(UxBuilder\Services\Container))
+#4 /home/nhhatmkm/public_html/wp-content/themes/flatsome/inc/builder/core/server/src/Application.php(71): UxBuilder\Services\Container->service('current-post', Object(Closure))
+#5 /home/nhhatmkm/public_html/wp-includes/class-wp-hook.php(308): UxBuilder\Application->initialize('')
+#6 /home/nhhatmkm/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 /home/nhhatmkm/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/nhhatmkm/public_html/wp-settings.php(623): do_action('init')
+#9 /home/nhhatmkm/public_html/wp-config.php(108): require_once('/home/nhhatmkm/...')
+#10 /home/nhhatmkm/public_html/wp-load.php(50): require_once('/home/nhhatmkm/...')
+#11 /home/nhhatmkm/public_html/wp-admin/admin.php(34): require_once('/home/nhhatmkm/...')
+#12 /home/nhhatmkm/public_html/wp-admin/post.php(12): require_once('/home/nhhatmkm/...')
+#13 {main}
+  thrown in /home/nhhatmkm/public_html/wp-content/themes/flatsome/inc/builder/core/server/src/Post/Post.php on line 14
+

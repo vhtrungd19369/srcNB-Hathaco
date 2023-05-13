@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
 "Language: vi_VN\n"
 "Project-Id-Version: Plugins - Akismet Spam Protection - Stable (latest release)\n"
 
@@ -23,7 +23,7 @@ msgstr "Cài đặt tài khoản khác"
 msgid "Set up your Akismet account to enable spam filtering on this site."
 msgstr "Cài đặt tài khoản Akismet để bật bộ chống Spam trên web."
 
-#: class.akismet-admin.php:1146
+#: class.akismet-admin.php:1140
 msgid "Akismet could not recheck your comments for spam."
 msgstr "Akismet không thể kiểm tra lại bình luận spam."
 
@@ -59,7 +59,7 @@ msgstr "Thông báo bảo mật của Akismet"
 msgid "Privacy"
 msgstr "Riêng tư"
 
-#: class.akismet.php:1744
+#: class.akismet.php:1780
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
 msgstr "Website này sử dụng Akismet để hạn chế spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Tìm hiểu bình luận của bạn được duyệt như thế nào</a>."
 
@@ -67,7 +67,7 @@ msgstr "Website này sử dụng Akismet để hạn chế spam. <a href=\"%s\" 
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "Chúng tôi thu thập thông tin về người dùng đã bình luận trên website sử dụng dịch vụ của Akismet. Các thông tin thu thập phụ thuộc vào cách người sử dụng cài đặt Akismet trên website, nhưng thông thường bao gồm địa chỉ IP, trình duyệt, nguồn đến và địa chỉ Website (bên cạnh các thông tin khác người dùng trực tiếp nhập như họ tên, tài khoản, địa chỉ email và nội dung bình luận)."
 
-#: class.akismet.php:276
+#: class.akismet.php:312
 msgid "Comment discarded."
 msgstr "Bình luận bị loại bỏ."
 
@@ -168,29 +168,29 @@ msgstr "Thống kê chi tiết"
 msgid "Statistics"
 msgstr "Thống kê"
 
-#: class.akismet-admin.php:1250
+#: class.akismet-admin.php:1244
 msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
 msgstr "Được sử dụng bởi hàng triệu website, Akismet  là plugin hữu ích giúp bạn <strong>bảo vệ website khỏi spam</strong>. Nó giúp bảo vệ website khi bạn đang ngủ. Để bắt đầu, hãy <a href=\"admin.php?page=akismet-key-config\">thiết lập cấu hình</a> để nhập API key."
 
-#: class.akismet-admin.php:1247
+#: class.akismet-admin.php:1241
 msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Your site is fully configured and being protected, even while you sleep."
 msgstr "Được sử dụng bởi hàng triệu người, Akismet là có thể là cách thức tốt nhất trên thế giới để <strong>bảo về blog của bạn khỏi spam</strong>. Trang của bạn được cấu hình hoàn toàn và được bảo về, thậm chí trong khi bạn đang ngủ."
 
-#: class.akismet-admin.php:1139
+#: class.akismet-admin.php:1133
 msgid "%s comment was caught as spam."
 msgid_plural "%s comments were caught as spam."
 msgstr[0] "%s bình luận bị phát hiện là spam."
 
-#: class.akismet-admin.php:1136
+#: class.akismet-admin.php:1130
 msgid "No comments were caught as spam."
 msgstr "Không có bình luận nào bị phát hiện là spam."
 
-#: class.akismet-admin.php:1132
+#: class.akismet-admin.php:1126
 msgid "Akismet checked %s comment."
 msgid_plural "Akismet checked %s comments."
 msgstr[0] "Akismet đã kiểm tra %s bình luận."
 
-#: class.akismet.php:645
+#: class.akismet.php:681
 msgid "Comment not found."
 msgstr "Không tìm thấy bình luận."
 
@@ -279,10 +279,6 @@ msgstr[0] "Akismet đã tiết kiệm cho bạn %s ngày!"
 msgid "Akismet filters out spam, so you can focus on more important things."
 msgstr "Akismet giúp bạn lọc spam, nên bạn có thể tập trung làm những chuyện quan trọng hơn."
 
-#: views/notice.php:193
-msgid "To continue your service, <a href=\"%s\" target=\"_blank\">upgrade to an Enterprise subscription</a>, which covers an unlimited number of sites."
-msgstr "Để tiếp tục dịch vụ của bạn, <a href=\"%s\" target=\"_blank\"> hãy nâng cấp lên gói Doanh nghiệp</a> khi đó sẽ không giới hạn số trang web sử dụng."
-
 #. translators: The placeholder is a URL.
 #: views/notice.php:151
 msgid "The connection to akismet.com could not be established. Please refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your server configuration."
@@ -292,7 +288,7 @@ msgstr "Kết nối tới akismet.com bị gián đoạn. Vui lòng xem <a href=
 msgid "The API key you entered could not be verified."
 msgstr "Mã bạn vừa nhập không thể xác minh."
 
-#: views/notice.php:94 views/notice.php:188 views/notice.php:195
+#: views/notice.php:94
 msgid "Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with any questions."
 msgstr "Hãy <a href=\"%s\" target=\"_blank\"> liên hệ với nhóm hỗ trợ của chúng tôi </a> với bất kỳ câu hỏi nào bạn đang thắc mắc."
 
@@ -506,11 +502,11 @@ msgstr[0] "Spam đã bị chặn"
 msgid "Past six months"
 msgstr "6 tháng trước"
 
-#: class.akismet.php:1503
+#: class.akismet.php:1539
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "Hãy <a href=\"%1$s\">nâng cấp Wordpress</a> tới phiên bản hiện tại, hoặc <a href=\"%2$s\">hạ cấp plugin Akismet xuống 2.4</a>."
 
-#: class.akismet.php:1503
+#: class.akismet.php:1539
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s yêu cầu phiên bản WordPress %s hoặc cao hơn."
 
@@ -810,7 +806,7 @@ msgstr "Đang xóa"
 msgid "Remove this URL"
 msgstr "Loại bỏ URL này"
 
-#: class.akismet-admin.php:87 class.akismet-admin.php:1265
+#: class.akismet-admin.php:87 class.akismet-admin.php:1259
 msgid "Akismet"
 msgstr "Akismet"
 

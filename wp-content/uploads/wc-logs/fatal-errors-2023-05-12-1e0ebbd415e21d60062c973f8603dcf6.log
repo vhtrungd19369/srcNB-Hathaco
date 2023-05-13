@@ -1,0 +1,19 @@
+2023-05-12T13:51:55+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in /home/nhhatmkm/public_html/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php:385
+Stack trace:
+#0 /home/nhhatmkm/public_html/wp-includes/class-wp-hook.php(308): Header_Footer_Elementor->enqueue_scripts('')
+#1 /home/nhhatmkm/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nhhatmkm/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/nhhatmkm/public_html/wp-includes/script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 /home/nhhatmkm/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home/nhhatmkm/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home/nhhatmkm/public_html/wp-includes/class-wp-hook.php(308): WP_Customize_Manager->setup_theme('')
+#7 /home/nhhatmkm/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 /home/nhhatmkm/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/nhhatmkm/public_html/wp-settings.php(555): do_action('setup_theme')
+#10 /home/nhhatmkm/public_html/wp-config.php(108): require_once('/home/nhhatmkm/...')
+#11 /home/nhhatmkm/public_html/wp-load.php(50): require_once('/home/nhhatmkm/...')
+#12 /home/nhhatmkm/public_html/wp-blog-header.php(13): require_once('/home/nhhatmkm/...')
+#13 /home/nhhatmkm/public_html/index.php(17): require('/home/nhhatmkm/...')
+#14 {main}
+  thrown in /home/nhhatmkm/public_html/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php on line 385
+
